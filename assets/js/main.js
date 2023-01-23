@@ -58,6 +58,10 @@ function vergleichen() {
 
 
     outputFeld.innerHTML = outputErgebnis;
+    outputFeld.style.color = "green";
+
+    outputFeld.classList.add("js_backgroundColor");
+    // gibt add remove und toggle 
 
 }
 
