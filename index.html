@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,31 @@
 
 
 </head>
+
 <body>
-    <h1>test</h1>
-    <h2>dev2</h2>
+    <h1>Wetter-Qualität</h1>
+
+    <form action="" onsubmit="return false">
+        <!--  retrun false = damit beim drücken nicht alles gelöscht wird und wir in Varibalen speichenr können -->
+
+        <section>
+            <label for="wetter">Wetter-Qualität</label>
+          <input type="number" name="inputWetterZahl" id="inputWetterZahl" placeholder="hier bitte die Wetter-Qualität von 1-10 eingeben" min="1" max="10">
+      
+      <button id="button">Prüfen</button>
+
+      <p id="output">Hier steht gleich die Qualität des Wetters</p>
+      
+        </section>
+
+
+
+
+
+    </form>
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
